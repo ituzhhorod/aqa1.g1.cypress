@@ -3,8 +3,8 @@
 context('Navigations tests', () => {
 
     beforeEach(() => {
-      cy.visit('https://www.its.uz.ua')
-      cy.viewport(1980, 1024)
+      cy.visit('https://www.its.uz.ua');
+      cy.viewport(1980, 1024);
     })
   
 
