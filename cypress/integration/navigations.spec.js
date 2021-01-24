@@ -37,4 +37,10 @@ context('Navigations tests', () => {
         cy.get('#button').click();
     })
 
+
+    it('New Test', ()=>{
+        cy
+        .contains('Контакти')
+        .click()
+    })
 })
