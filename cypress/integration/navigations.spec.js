@@ -46,5 +46,6 @@ context('Navigations tests', () => {
         cy.get('.srvice-text a[href="/services/automation_testing/"]').should('have.text', 'АВТОМАТИЗОВАНЕ ТЕСТУВАННЯ');
         cy.get('.srvice-text a[href="/services/music_it/"]').should('have.text', 'МУЗИЧНА ГРАМОТА ДЛЯ ІТ');
         cy.get('.srvice-text a[href="/services/pjm/"]').should('have.text', 'Практичний IT проект менеджмент');
+        cy.get('.srvice-text a[href="#"]').should('have.text', 'ПРОГРАМУВАННЯ');
     })
 })
