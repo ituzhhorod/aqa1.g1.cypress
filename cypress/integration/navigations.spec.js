@@ -37,4 +37,10 @@ context('Navigations tests', () => {
         cy.get('#button').click();
     })
 
+    it("As User when I go to services I can see proper ui for first 3 services", ()=>{
+        cy.contains('Курси').click();
+        cy.get('div.service-content> div:nth-child(3)')
+        .compareSnapshot('first_services_group', 0.4);
+    })
+
 })
