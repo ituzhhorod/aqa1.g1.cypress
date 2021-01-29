@@ -6,11 +6,13 @@
   "scripts": {
     "test": "cypress run --browser chrome",
     "Cy:run": "cypress run --browser chrome --headless",
-    "cy:open": "cypress open"
+    "cy:open": "cypress open",
+    "cy:remote":"cypress run --browser chrome  --headless --record --key e4bf50d3-a750-4753-9ecb-4a188a562b0c"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^6.3.0"
+    "cypress": "^6.3.0",
+    "cypress-image-diff-js": "^1.8.2"
   }
 }
